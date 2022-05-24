@@ -16,5 +16,5 @@ livingRoomLocalKey = '9dec8bcf335b73f4'
 br = tinytuya.BulbDevice(bedroomDeviceID,bedroomIPaddress,bedroomLocalKey)
 lr = tinytuya.BulbDevice(livingRoomDeviceID,livingroomIPaddress,livingRoomLocalKey)
 
-#br.set_version(3.1)
+br.set_version(3.1)
 #lr.set_version(3.1)

@@ -60,3 +60,5 @@ BulbDevice Commands
    (r, g, b) = colour_rgb():
    (h,s,v) = colour_hsv():
    result = state():
+
+# Status #5 is brightness
