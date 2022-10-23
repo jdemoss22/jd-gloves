@@ -30,20 +30,20 @@ Device Commands from tinytuya:
 
 BulbDevice Commands:
 
-   set_colour(r, g, b)
-   set_hsv(h, s, v)
-   set_white(brightness, colourtemp)
-   set_white_percentage(brightness=100, colourtemp=0)
-   set_brightness(brightness)
-   set_brightness_percentage(brightness=100)
-   set_colourtemp(colourtemp)
-   set_colourtemp_percentage(colourtemp=100)
-   set_scene(scene)            # 1=nature, 3=rave, 4=rainbow
-   set_mode(mode='white')       # white, colour, scene, music
-   result = brightness()
-   result = colourtemp()
-   (r, g, b) = colour_rgb()
-   (h,s,v) = colour_hsv()
-   result = state()
+   	set_colour(r, g, b)
+   	set_hsv(h, s, v)
+   	set_white(brightness, colourtemp)
+   	set_white_percentage(brightness=100, colourtemp=0)
+   	set_brightness(brightness)
+   	set_brightness_percentage(brightness=100)
+   	set_colourtemp(colourtemp)
+   	set_colourtemp_percentage(colourtemp=100)
+   	set_scene(scene)            # 1=nature, 3=rave, 4=rainbow
+   	set_mode(mode='white')       # white, colour, scene, music
+   	result = brightness()
+   	result = colourtemp()
+   	(r, g, b) = colour_rgb()
+   	(h,s,v) = colour_hsv()
+   	result = state()
 
  Status #5 is brightness
