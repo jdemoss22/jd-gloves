@@ -24,9 +24,9 @@ to get device info, run "python -m tinytuya wizard"
 
 <h2>Support Documents</h2>
 
-[tkinter](https://tkdocs.com/shipman/)
-[tinytuya](https://pythonrepo.com/repo/jasonacox-tinytuya-python-networking-programming)
-[pyduino](https://www.arduino.cc/reference/en/libraries/pyduinobridge/)
+[tkinter](https://tkdocs.com/shipman/)<br>
+[tinytuya](https://pythonrepo.com/repo/jasonacox-tinytuya-python-networking-programming)<br>
+[pyduino](https://www.arduino.cc/reference/en/libraries/pyduinobridge/)<br>
 
 Device Commands from tinytuya:
 
@@ -45,7 +45,7 @@ Device Commands from tinytuya:
 	 send(payload)                      # Send payload to device (do not wait for response)
 	 receive()                          # Receive payload from device
 
-BulbDevice Commands
+BulbDevice Commands:
    set_colour(r, g, b):
    set_hsv(h, s, v):
    set_white(brightness, colourtemp):
