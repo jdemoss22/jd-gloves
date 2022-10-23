@@ -22,7 +22,7 @@ to get device info, run "python -m tinytuya wizard"
 "PyInstaller" can convert Python files to standalone executables
 
 
-<h2>SUPPORT DOCUMENTS</h2>
+<h2>Support Documents</h2>
 
 [tkinter](https://tkdocs.com/shipman/)
 [tinytuya](https://pythonrepo.com/repo/jasonacox-tinytuya-python-networking-programming)
