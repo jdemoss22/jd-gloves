@@ -29,6 +29,7 @@ Device Commands from tinytuya:
 	 receive()                          # Receive payload from device
 
 BulbDevice Commands:
+
    set_colour(r, g, b):
    set_hsv(h, s, v):
    set_white(brightness, colourtemp):
