@@ -1,21 +1,5 @@
 <h2>Setup for IDE</h2>
-
-install "script" for atom
-
-install anaconda for python
-	conda create -n gloves python=3.7 anaconda
-	activate gloves
-	add tinytuya and window (tkinter)
-		pip install tinytuya
-		pip install tk
-		pip list
-
-point atom-script to virtual python executable created by anaconda
-	ctrl-shift-alt-o
-	input path to .exe in "command" box
-	ex. C:\Users\Joe\anaconda3\envs\gloves\python.exe
-
-to get device info, run "python -m tinytuya wizard"
+To get device info, run "python -m tinytuya wizard"
 	will ask for Access ID/Client ID, Client Secret, Device ID registered to account, and which data center (us)
 	Will create devices.json with all device info
 
@@ -23,10 +7,10 @@ to get device info, run "python -m tinytuya wizard"
 
 
 <h2>Support Documents</h2>
-
-[tkinter](https://tkdocs.com/shipman/)<br>
-[tinytuya](https://pythonrepo.com/repo/jasonacox-tinytuya-python-networking-programming)<br>
-[pyduino](https://www.arduino.cc/reference/en/libraries/pyduinobridge/)<br>
+[PyInstaller](https://pyinstaller.org/en/stable/)<br>
+[Tkinter](https://tkdocs.com/shipman/)<br>
+[TinyTuya](https://pythonrepo.com/repo/jasonacox-tinytuya-python-networking-programming)<br>
+[PyDuinoBridge](https://www.arduino.cc/reference/en/libraries/pyduinobridge/)<br>
 
 Device Commands from tinytuya:
 
