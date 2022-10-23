@@ -3,10 +3,9 @@ To get device info, run "python -m tinytuya wizard"
 	will ask for Access ID/Client ID, Client Secret, Device ID registered to account, and which data center (us)
 	Will create devices.json with all device info
 
-"PyInstaller" can convert Python files to standalone executables
-
 
 <h2>Support Documents</h2>
+
 [PyInstaller](https://pyinstaller.org/en/stable/)<br>
 [Tkinter](https://tkdocs.com/shipman/)<br>
 [TinyTuya](https://pythonrepo.com/repo/jasonacox-tinytuya-python-networking-programming)<br>
